@@ -19,7 +19,7 @@ interface Petal {
 
 // Rose petals drifting down over every screen, a subtler take on the red petals of the game's skill tree
 // (design/skill-tree-screen.png), photographed petals (scripts/character/petals.py). The back layer is drawn under the
-// character and his silhouette (CharacterOcclusion), so petals pass behind him; the front layer
+// character, so petals pass behind it; the front layer
 // passes over him, larger and casting a shadow. Petals are spawned at random times with random paths, so nothing
 // repeats; they only exist on the client.
 const LAYERS: Record<

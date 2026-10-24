@@ -7,7 +7,7 @@
   pointer-events: none;
 
   // The grade (and the back layer's blur) is baked into the sprites by scripts/character/petals.py; behind the
-  // character, his silhouette (CharacterOcclusion) is drawn over the back layer.
+  // character, the character is drawn over the back layer.
   // In front: sharper, lit by the warm key light from the left, shadow cast down to the right.
   &--front .Petals-petal {
     filter: drop-shadow(14px 20px 7px rgb(0 0 0 / 0.65));

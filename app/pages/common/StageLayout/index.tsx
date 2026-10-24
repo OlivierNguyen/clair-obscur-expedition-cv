@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router';
 
 import Character from '../Character';
-import CharacterOcclusion from '../CharacterOcclusion';
 import CharacterStats from '../CharacterStats';
 import Petals from '../Petals';
 import RotateScreen from '../RotateScreen';
@@ -36,7 +35,6 @@ const StageLayout = () => {
         backdrop={
           <>
             <Petals layer="back" />
-            <CharacterOcclusion shot={shot} />
             <Character shot={shot} />
             <Petals layer="front" />
           </>
